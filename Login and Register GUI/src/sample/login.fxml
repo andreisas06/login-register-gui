@@ -14,7 +14,7 @@
    <left>
       <AnchorPane prefHeight="407.0" prefWidth="228.0" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fitHeight="400.0" fitWidth="228.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="brandingImageView" fitHeight="400.0" fitWidth="228.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../Pictures/login_register.png" />
                </image>
@@ -25,7 +25,7 @@
    <right>
       <AnchorPane prefHeight="400.0" prefWidth="307.0" style="-fx-background-color: ffffff;" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fitHeight="32.0" fitWidth="46.0" layoutX="130.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="lockImageView" fitHeight="32.0" fitWidth="46.0" layoutX="130.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../Pictures/lock-icon-transparent-background-19.jpg" />
                </image>
@@ -52,7 +52,7 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Button>
-            <Label alignment="CENTER" layoutX="32.0" layoutY="214.0" prefHeight="19.0" prefWidth="243.0" text="Invalid login. Please try again!" textAlignment="CENTER" textFill="#ff4343">
+            <Label fx:id="loginMessageLabel" alignment="CENTER" layoutX="32.0" layoutY="214.0" prefHeight="19.0" prefWidth="243.0" textAlignment="CENTER" textFill="#ff4343">
                <font>
                   <Font size="13.0" />
                </font>
