@@ -39,6 +39,7 @@ public class LoginController implements Initializable {
         lockImageView.setImage(lockImage);
     }
 
+    //TODO fix login message
     public void loginButtonOnAction(ActionEvent event){
         loginMessageLabel.setText("You tried to login");
     }
